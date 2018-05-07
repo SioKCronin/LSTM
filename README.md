@@ -2,7 +2,7 @@
 
 Implementation of a Long Short-Term Memory network, inspired by OpenAI's [Request for Research 2.0](https://blog.openai.com/requests-for-research-2/). 
 
-## OpenAI's motivating example
+## OpenAI's motivating question
 
 Train an LSTM to solve the XOR problem: that is, given a sequence of bits, determine its parity. The LSTM should consume the sequence, one bit at a time, and then output the correct answer at the sequence’s end. 
 
