@@ -17,3 +17,4 @@ Train an LSTM to solve the XOR problem: that is, given a sequence of bits, deter
 * [Understanding LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 * [Implementation example in Numpy](http://blog.varunajayasiri.com/numpy_lstm.html)
 * [Implementation by Trask](https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/)
+* [Another example](https://machinelearningmastery.com/binary-classification-tutorial-with-the-keras-deep-learning-library/)
