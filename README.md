@@ -14,9 +14,8 @@ Apriori: I believe the diminished performance we will see is because we have les
 
 ## Resources
 
-* [Where I started](https://towardsdatascience.com/lstm-by-example-using-tensorflow-feb0c1968537)
-* [Great resource!](https://deeplearning4j.org/lstm.html)
 * [Understanding LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+* [Another great tutorial](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 * [Implementation example in Numpy](http://blog.varunajayasiri.com/numpy_lstm.html)
 * [Implementation by Trask](https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/)
 * [Another example](https://machinelearningmastery.com/binary-classification-tutorial-with-the-keras-deep-learning-library/)
