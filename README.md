@@ -6,3 +6,4 @@ Implementation of a Long Short-Term Memory network, inspired by OpenAI's [Reques
 
 * [Understanding LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 * [Implementation example in Numpy](http://blog.varunajayasiri.com/numpy_lstm.html)
+* [Implementation by Trask](https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/)
