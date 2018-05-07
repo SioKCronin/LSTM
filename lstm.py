@@ -1,6 +1,5 @@
 # Long Short-Term Memory
 
-# https://www.tensorflow.org/tutorials/recurrent
 import tensorflow as tf
 import collections
 import numpy as np
@@ -54,7 +53,6 @@ symbols_out_onehot[dictionary[str(training_data[offset+n_input])]]= 1.0
 session = tf.Session()
 
 # Define an optimizer - https://stats.stackexchange.com/questions/168513/what-optimization-methods-work-best-for-lstms
-
 
 _, acc, loss, onehot_pred = session.run([optimizer, accuracy, cost, pred],
     feed_dict={x: symbols_in_keys, y: symbols_out_onehot})
