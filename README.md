@@ -5,3 +5,4 @@ Implementation of a Long Short-Term Memory network, inspired by OpenAI's [Reques
 ## Resources
 
 * [Understanding LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+* [Implementation example in Numpy](http://blog.varunajayasiri.com/numpy_lstm.html)
