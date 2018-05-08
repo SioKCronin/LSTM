@@ -8,10 +8,9 @@ Train an LSTM to solve the XOR problem: that is, given a sequence of bits, deter
 
 - [X] Generate a dataset of random 100,000 binary strings of length 50. 
 - [X] Train the LSTM; what performance do you get?
-**With 10 epochs, I got 1.00 accuracy**
+**With 10 epochs, I got 0.4966 accuracy**
 - [X] Generate a dataset of random 100,000 binary strings, where the length of each string is independently and randomly chosen between 1 and 50. 
-- [ ] Train the LSTM. Does it succeed? What explains the difference?
-Apriori: I believe the diminished performance we will see is because we have less data to train on because of the variable sequence lengths.
+- [ ] Train the LSTM. Does it succeed? What explains the difference? Well, you have to pad the numbers to get a consistent length, which essentially creates new binary digits.
 
 ## Resources
 
