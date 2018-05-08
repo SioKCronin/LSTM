@@ -10,10 +10,12 @@ Train an LSTM to solve the XOR problem: that is, given a sequence of bits, deter
 - [ ] Train the LSTM; what performance do you get?
 - [X] Generate a dataset of random 100,000 binary strings, where the length of each string is independently and randomly chosen between 1 and 50. 
 - [ ] Train the LSTM. Does it succeed? What explains the difference?
+Apriori: I believe the diminished performance we will see is because we have less data to train on because of the variable sequence lengths.
 
 ## Resources
 
-* [Where I started](https://towardsdatascience.com/lstm-by-example-using-tensorflow-feb0c1968537)
 * [Understanding LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+* [Another great tutorial](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 * [Implementation example in Numpy](http://blog.varunajayasiri.com/numpy_lstm.html)
 * [Implementation by Trask](https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/)
+* [Another example](https://machinelearningmastery.com/binary-classification-tutorial-with-the-keras-deep-learning-library/)
