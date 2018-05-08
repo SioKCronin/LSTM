@@ -4,9 +4,12 @@ import tensorflow as tf
 import collections
 import numpy as np
 
-training_data = "long ago, the mice had a general council to consider what measures they \
-could take to outwit their common enemy, the cat. som said this, and some said \
-that but at last a young mouse got up and said he had a proposal to make"
+input_file = 'data_50.csv'
+
+def load_data(test_split = 0.2):
+    print ('Loading data...')
+    df = pd.read_csv(input_file)
+    df['sequence'] = df['sequence'].astype(str)
 
 def build_dataset(words):
     count = collections.Counter(words).most_common()
@@ -63,7 +66,3 @@ cost = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=pred, label
 optimizer = tf.train.RMSPropOptimizer(learning_rate=learning_rate).minimize(cost)
 
 rnn_cell = rnn.MultiRNNCell([rnn.BasicLSTMCell(n_hidden), rnn.BasicLSTMCell(n_hidden)])
-
-
-
-

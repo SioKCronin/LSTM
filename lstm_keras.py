@@ -9,12 +9,10 @@ input_file = 'data_50.csv'
 def load_data(test_split = 0.2):
     print ('Loading data...')
     df = pd.read_csv(input_file)
-    df['sequence'] = df['sequence'].apply(lambda x: [float(e) for e in x.split()])
-    df = df.reindex(np.random.permutation(df.index))
+    df['sequence'] = df['sequence'].astype(str)
+    train_size = int(len(df) * (1 - test_split))
 
     print(df)
-
-    train_size = int(len(df) * (1 - test_split))
 
     X_train = df['sequence'].values[:train_size]
     y_train = np.array(df['target'].values[:train_size])
