@@ -6,11 +6,9 @@ Implementation of a Long Short-Term Memory network, inspired by OpenAI's [Reques
 
 Train an LSTM to solve the XOR problem: that is, given a sequence of bits, determine its parity. The LSTM should consume the sequence, one bit at a time, and then output the correct answer at the sequence’s end. 
 
-- [X] Generate a dataset of random 100,000 binary strings of length 50. 
-- [X] Train the LSTM; what performance do you get?
+- [X] Generate a dataset of random 100,000 binary strings of length 50. Train the LSTM; what performance do you get?
 **With 10 epochs, I got 0.5025 accuracy. Dropout did not improve performance**
-- [X] Generate a dataset of random 100,000 binary strings, where the length of each string is independently and randomly chosen between 1 and 50. 
-- [ ] Train the LSTM. Does it succeed? What explains the difference?
+- [ ] Generate a dataset of random 100,000 binary strings, where the length of each string is independently and randomly chosen between 1 and 50. Train the LSTM. Does it succeed? What explains the difference?
 
 ## Resources
 
