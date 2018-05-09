@@ -14,6 +14,7 @@ Train an LSTM to solve the XOR problem: that is, given a sequence of bits, deter
 
 ## Resources
 
+* [LSTM parameters](https://stackoverflow.com/questions/45278286/how-to-choose-lstm-keras-parameters?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
 * [Understanding LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 * [Another great tutorial](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
 * [Implementation example in Numpy](http://blog.varunajayasiri.com/numpy_lstm.html)
