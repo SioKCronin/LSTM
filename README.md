@@ -1,6 +1,6 @@
-# LSTM Network
+# 1D Grid LSTM Network
 
-Implementation of a Long Short-Term Memory network, inspired by OpenAI's [Request for Research 2.0](https://blog.openai.com/requests-for-research-2/). 
+Implementation of the XOR problem with Long Short-Term Memory (LSTM), inspired by OpenAI's [Request for Research 2.0](https://blog.openai.com/requests-for-research-2/). 
 
 ## OpenAI's motivating question
 
