@@ -1,6 +1,6 @@
-# 1D Grid LSTM Network
+# Grid LSTM
 
-Implementation of the XOR problem with Long Short-Term Memory (LSTM), inspired by OpenAI's [Request for Research 2.0](https://blog.openai.com/requests-for-research-2/). 
+Implementation of the paper, [Grid Long Short Term Memory](https://arxiv.org/pdf/1507.01526v3.pdf), inspired by OpenAI's [Request for Research 2.0](https://blog.openai.com/requests-for-research-2/). 
 
 ## The Problem
 
@@ -15,7 +15,4 @@ Train an LSTM to solve the XOR problem: that is, given a sequence of bits, deter
 
 * [LSTM parameters](https://stackoverflow.com/questions/45278286/how-to-choose-lstm-keras-parameters?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
 * [Understanding LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-* [Another great tutorial](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
-* [Implementation example in Numpy](http://blog.varunajayasiri.com/numpy_lstm.html)
-* [Implementation by Trask](https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/)
-* [Another example](https://machinelearningmastery.com/binary-classification-tutorial-with-the-keras-deep-learning-library/)
+* [Tensorflow RNN cells](https://github.com/tensorflow/tensorflow/blob/r1.4/tensorflow/contrib/rnn/python/ops/rnn_cell.py)
