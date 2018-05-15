@@ -13,6 +13,8 @@ Train an LSTM to solve the XOR problem: that is, given a sequence of bits, deter
 
 ## Resources
 
+* [Reference - Tensorflow](https://github.com/phvu/grid-lstm-tensorflow/tree/master/char_rnn)
+* [Reference - Keras](https://github.com/davidbuniat/GridLSTM)
 * [LSTM parameters](https://stackoverflow.com/questions/45278286/how-to-choose-lstm-keras-parameters?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa)
 * [Understanding LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 * [Tensorflow RNN cells](https://github.com/tensorflow/tensorflow/blob/r1.4/tensorflow/contrib/rnn/python/ops/rnn_cell.py)
