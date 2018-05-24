@@ -38,7 +38,7 @@ def generate_data(test_split = 0.2, variable=False):
 
     return X_train, y_train, X_test, y_test
 
-def create_1grid_LSTM_model(input_length):
+def create_LSTM_model(input_length):
     print('---Creating LSTM model---')
     embed_dim = 128
     lstm_out = 200
@@ -55,6 +55,6 @@ def create_1grid_LSTM_model(input_length):
 
 X_train, y_train, X_test, y_test = generate_data()
 
-model = create_1grid_LSTM_model(len(X_train[0]))
+model = create_LSTM_model(len(X_train[0]))
 model.fit(X_train, y_train, batch_size=10, epochs=10)
 model.evaluate(X_test, y_test, batch_size=4)
