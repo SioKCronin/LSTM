@@ -9,8 +9,8 @@ Train an LSTM to solve the XOR problem: that is, given a sequence of bits, deter
 - [X] Generate a dataset of random 100,000 binary strings of length 50. Train the LSTM; what performance do you get?
 * **With 10 epochs, I got 0.5025 accuracy.** 
 * **I fiddled with dropout and epochs, and saw performance wasn't improving, so I hunted around for insight into what might be happening. Christopher Bourez's blog let me do to [this paper](https://arxiv.org/abs/1507.01526).**
-- [X] Implement simple verbose LSTM (not with Keras).
-- [ ] Create simple grid LSTM architecture. 
+- [X] Implement simple LSTM with Keras.
+- [ ] Implement a LSTM network w/out Keras
 - [ ] Generate a dataset of random 100,000 binary strings, where the length of each string is independently and randomly chosen between 1 and 50. Train the LSTM. Does it succeed? What explains the difference?
 
 ## Resources
