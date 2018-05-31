@@ -1,6 +1,6 @@
 # Grid LSTM
 
-Implementation of the paper, [Grid Long Short Term Memory](https://arxiv.org/pdf/1507.01526v3.pdf), inspired by OpenAI's [Request for Research 2.0](https://blog.openai.com/requests-for-research-2/). 
+The goal of this repo is to implement and explore the implications of this paper, [Grid Long Short Term Memory](https://arxiv.org/pdf/1507.01526v3.pdf), inspired by OpenAI's [Request for Research 2.0](https://blog.openai.com/requests-for-research-2/). 
 
 ## The Problem
 
@@ -8,7 +8,7 @@ Train an LSTM to solve the XOR problem: that is, given a sequence of bits, deter
 
 - [X] Generate a dataset of random 100,000 binary strings of length 50. Train the LSTM; what performance do you get?
 * **With 10 epochs, I got 0.5025 accuracy.** 
-* **I fiddled with dropout and epochs, and saw performance wasn't improving, so I hunted around for insight into what might be happening. Christopher Bourez's blog let me do to [this paper](https://arxiv.org/abs/1507.01526) which I've reviewed [here](http://www.siobhankcronin.com/blog/2018/5/9/review-grid-long-short-term-memory).**
+* **I fiddled with dropout and epochs, and saw performance wasn't improving, so I hunted around for insight into what might be happening. Christopher Bourez's blog let me do to [this paper](https://arxiv.org/abs/1507.01526).**
 - [X] Implement simple verbose LSTM (not with Keras).
 - [ ] Create simple grid LSTM architecture. 
 - [ ] Generate a dataset of random 100,000 binary strings, where the length of each string is independently and randomly chosen between 1 and 50. Train the LSTM. Does it succeed? What explains the difference?
